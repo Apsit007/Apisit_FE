@@ -12,7 +12,7 @@ function Profile() {
                 </div>
                 <div className="col-sm-12 col-md-4 d-flex justify-content-center">
 
-                    <img src="https://github.com/Apsit007/Apisit_FE/blob/main/src/assets/profile_img.jpg" alt="Profile" className='profile-img' />
+                    <img src="https://github.com/Apsit007/Apisit_FE/blob/main/src/assets/profile_img.jpg?raw=true" alt="Profile" className='profile-img' />
 
                 </div>
             </div >

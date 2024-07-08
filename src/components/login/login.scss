@@ -1,0 +1,34 @@
+.input-bg {
+    border-color: rgb(100, 100, 100);
+    background-color: #1a1a1a;
+    color: rgb(114, 114, 114);
+}
+
+.input-bg:focus {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.card {
+    --angle: 0deg;
+    width: 50vmin;
+    height: 50vmin;
+    border: 1px solid;
+    color: white;
+    background-color: #1a1a1a;
+    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+
+    animation: 10s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}

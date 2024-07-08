@@ -1,0 +1,8 @@
+.horver:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.text-scale {
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
+}

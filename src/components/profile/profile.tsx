@@ -12,7 +12,7 @@ function Profile() {
                 </div>
                 <div className="col-sm-12 col-md-4 d-flex justify-content-center">
 
-                    <img src="src/assets/profile_img.jpg" alt="Profile" className='profile-img' />
+                    <img src="../src/assets/profile_img.jpg" alt="Profile" className='profile-img' />
 
                 </div>
             </div >

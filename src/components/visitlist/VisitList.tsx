@@ -87,6 +87,7 @@ function VisitList({ VisitorId }: Props) {
             {/* <div className="d-flex justify-content-center text-center "> */}
 
             <div className="input-group d-flex justify-content-center flex-sm-nowrap flex-wrap p-5 ">
+                {/* {error && <div className="invalid-feedback">{error}</div>} */}
                 <input
                     type="text"
                     className={`form-control rounded-3 ${error ? 'is-invalid' : ''}`}
@@ -96,7 +97,7 @@ function VisitList({ VisitorId }: Props) {
                 />
                 <button className="btn btn-outline-secondary w-25" type="button" onClick={handleSubmit}>Post</button>
 
-                {error && <div className="invalid-feedback">{error}</div>}
+
             </div>
             {/* </div> */}
         </>

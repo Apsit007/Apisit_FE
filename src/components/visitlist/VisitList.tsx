@@ -66,8 +66,8 @@ function VisitList({ VisitorId }: Props) {
                     <thead>
                         <tr>
                             <th scope="col"></th>
-                            <th scope="col">VisitorName</th>
-                            <th scope="col">Organization</th>
+                            <th scope="col">Visitor Name</th>
+                            <th scope="col">Company</th>
                             <th scope="col">Comment</th>
                         </tr>
                     </thead>

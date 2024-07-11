@@ -75,7 +75,7 @@ function login() {
                                 {errors.VisitorName && <div className="invalid-feedback">{errors.VisitorName}</div>}
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="organizationName" className="form-label">Organization Name</label>
+                                <label htmlFor="organizationName" className="form-label">Company Name</label>
                                 <input type="text" className={`form-control input-bg ${errors.OrganizationName && 'is-invalid'}`} id="organizationName" name="OrganizationName" value={visitorInfo.OrganizationName} onChange={handleInputChange} />
                                 {errors.OrganizationName && <div className="invalid-feedback">{errors.OrganizationName}</div>}
                             </div>

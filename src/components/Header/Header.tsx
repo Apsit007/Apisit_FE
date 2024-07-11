@@ -12,7 +12,7 @@ interface Props {
 }
 function Header({ VisitorName, VisitorCount }: Props) {
     const handleDownload = () => {
-        const pdfUrl = 'https://github.com/Apsit007/Apisit_FE.github.io/raw/master/src/assets/Apisit%20Purisan.pdf'; // Replace with the actual PDF URL
+        const pdfUrl = 'https://github.com/Apsit007/Apisit_FE/raw/main/src/assets/Apisit_Purisan.pdf'; // Replace with the actual PDF URL
         const link = document.createElement('a');
         link.href = pdfUrl;
         link.download = 'Apisit_Purisan.pdf'; // Specify the desired downloaded file name

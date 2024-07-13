@@ -46,7 +46,9 @@ function login() {
         } else {
             const storedDataString = localStorage.getItem('AccessToken');
             if (storedDataString) {
-                navigate('/dashboard');
+                setTimeout(() => {
+                    navigate('/dashboard');
+                }, 200);
             } else {
                 fetch(import.meta.env.VITE_API_URL + 'visitors/SaveVisitor', requestOptions)
                     .then(response => response.json())
